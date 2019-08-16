@@ -1,6 +1,6 @@
 {
   "name": "scrypt-shim",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "scrypt shim",
   "main": "src/index.js",
   "browser": "src/browser.js",
@@ -15,7 +15,7 @@
     "scryptsy": "^2.1.0",
     "semver": "^6.3.0"
   },
-  "author": "",
+  "author": "web3.js",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/web3-js/scrypt-shim/issues"
