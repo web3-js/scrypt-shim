@@ -9,9 +9,9 @@ var NODE_MIN_VER_INCOMPAT_SCRYPT_PKG = '12.0.0';
 // var NODE_MIN_VER_SCRYPT_MAXMEM_FIXED = ['10.?.?', '12.?.?'];
 
 // use NODE_MIN_VER_SCRYPT_MAXMEM_FIXED instead, when such versions are available
-// var byUpgradingOrInstalling = 'You can improve the performance of web3-eth-accounts by upgrading to Node.js version ' + NODE_MIN_VER_SCRYPT_MAXMEM_FIXED.join(' or ') + ' or newer, or by installing the (deprecated) scrypt package in your project';
+// var byUpgradingOrInstalling = 'You can improve the performance of scrypt by upgrading to Node.js version ' + NODE_MIN_VER_SCRYPT_MAXMEM_FIXED.join(' or ') + ' or newer, or by installing the (deprecated) scrypt package in your project';
 
-var byUpgradingOrInstalling = 'You can improve the performance of web3-eth-accounts by upgrading to Node.js version ' + NODE_MIN_VER_WITH_BUILTIN_SCRYPT + ' or newer, or by installing the (deprecated) scrypt package in your project';
+var byUpgradingOrInstalling = 'You can improve the performance of scrypt by upgrading to Node.js version ' + NODE_MIN_VER_WITH_BUILTIN_SCRYPT + ' or newer, or by installing the (deprecated) scrypt package in your project';
 
 var colorizeYellow = '\x1b[33m%s\x1b[0m';
 
