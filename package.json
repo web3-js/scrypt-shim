@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "browser": "src/browser.js",
   "scripts": {
-    "postinstall": "node postinstall.js"
+    "postinstall": "node ./scripts/postinstall.js"
   },
   "repository": {
     "type": "git",
