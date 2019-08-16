@@ -54,9 +54,9 @@ if (hasNodeBuiltin) {
       console.warn(
         colorizeYellow,
         // use NODE_MIN_VER_SCRYPT_MAXMEM_FIXED, when such versions are available
-        // 'Memory limit exceeded for Node\'s built-in crypto.scrypt, falling back to scryptsy (times: ' + fallbackCount + '), if this happens frequently you can improve the performance of web3-eth-accounts by upgrading to Node.js version ' + NODE_MIN_VER_SCRYPT_MAXMEM_FIXED.join(' or ') + ' or newer, or when running Node.js versions older than ' + NODE_MIN_VER_INCOMPAT_SCRYPT_PKG + ' by installing the (deprecated) scrypt package in your project'
+        // 'Memory limit exceeded for Node\'s built-in crypto.scrypt, falling back to scryptsy (times: ' + fallbackCount + '), if this happens frequently you can improve the performance of scrypt by upgrading to Node.js version ' + NODE_MIN_VER_SCRYPT_MAXMEM_FIXED.join(' or ') + ' or newer, or when running Node.js versions older than ' + NODE_MIN_VER_INCOMPAT_SCRYPT_PKG + ' by installing the (deprecated) scrypt package in your project'
 
-        'Memory limit exceeded for Node\'s built-in crypto.scrypt, falling back to scryptsy (times: ' + fallbackCount + '), if this happens frequently you can improve the performance of web3-eth-accounts when running Node.js versions older than ' + NODE_MIN_VER_INCOMPAT_SCRYPT_PKG + ' by installing the (deprecated) scrypt package in your project'
+        'Memory limit exceeded for Node\'s built-in crypto.scrypt, falling back to scryptsy (times: ' + fallbackCount + '), if this happens frequently you can improve the performance of scrypt when running Node.js versions older than ' + NODE_MIN_VER_INCOMPAT_SCRYPT_PKG + ' by installing the (deprecated) scrypt package in your project'
       );
       return scryptsy(key, salt, N, r, p, dkLen);
     };
