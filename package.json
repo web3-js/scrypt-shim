@@ -1,5 +1,5 @@
 {
-  "name": "scrypt-shim",
+  "name": "@web3-js/scrypt-shim",
   "version": "0.1.0",
   "description": "scrypt shim",
   "main": "src/index.js",
