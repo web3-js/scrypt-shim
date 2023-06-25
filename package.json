@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "scryptsy": "^2.1.0",
-    "semver": "^6.3.0"
+    "semver": "^7.5.2"
   },
   "author": "web3.js",
   "license": "MIT",
